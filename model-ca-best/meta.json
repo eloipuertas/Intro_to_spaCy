@@ -1,0 +1,34 @@
+{
+  "lang":"ca",
+  "pipeline":[
+    "tagger",
+    "parser",
+    "ner"
+  ],
+  "spacy_version":">=2.1.8",
+  "speed":{
+    "nwords":56482,
+    "cpu":1716.2175102873,
+    "gpu":null
+  },
+  "accuracy":{
+    "uas":91.253029307,
+    "las":87.9622452684,
+    "ents_p":0.0,
+    "ents_r":0.0,
+    "ents_f":0.0,
+    "ents_per_type":{
+
+    },
+    "tags_acc":98.2401473036,
+    "token_acc":100.0
+  },
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":"spacy_pretrained_vectors"
+  },
+  "name":"model0",
+  "version":"0.0.0"
+}
